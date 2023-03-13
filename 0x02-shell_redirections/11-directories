@@ -1,2 +1,3 @@
 #!/bin/bash
-find . -mindepth 1 -type d | ls -lRa  
+find . -type d -not -name '.' | wc -l
+
